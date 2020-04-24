@@ -18,6 +18,7 @@ public class NavigationSteps {
                                                  //   Login     , Login
         BasePage page = PageObjects.getPageObject(pageName);
         //BasePage page = new Login();
+        //Below, it will take the closest @Overridden method, and it is from Login class
         page.clickButton(buttonName); // clickButton executed from Login class
     }
 
